@@ -4,4 +4,17 @@ html, body {
 
 nav {
   text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  color: #F9ED69;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #F08A5D;
 }/*# sourceMappingURL=style.css.map */
