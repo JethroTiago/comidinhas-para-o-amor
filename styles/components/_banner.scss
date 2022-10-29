@@ -1,0 +1,14 @@
+.banner {
+    align-items: center;
+    background: url(../../images/BGIMG.png) 30% center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    min-height: 350px;
+    opacity: .9;
+    .inner-banner {
+        padding: 3rem;
+        background-color: $first-color;
+        border-radius: 15px;
+    }
+}

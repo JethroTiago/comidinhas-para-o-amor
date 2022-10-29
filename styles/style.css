@@ -17,4 +17,19 @@ nav ul li a {
 }
 nav ul li a:hover {
   border-bottom: 2px solid #F08A5D;
+}
+
+.banner {
+  align-items: center;
+  background: url(../../images/BGIMG.png) 30% center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 350px;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #F9ED69;
+  border-radius: 15px;
 }/*# sourceMappingURL=style.css.map */
