@@ -43,4 +43,22 @@ nav ul li a:hover {
   font-size: 1.5rem;
   text-transform: uppercase;
   color: #F9ED69;
+}
+
+#recipes {
+  margin: 40px;
+}
+#recipes h4 {
+  color: #6A2C70;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+#recipes h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 80px;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

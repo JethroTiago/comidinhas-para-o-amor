@@ -1,0 +1,19 @@
+@import '../abstract/variaveis';
+
+#recipes {
+    margin: 40px;
+    h4 {
+        color: $fourth-color;
+        font-size: $text-size / 1.5;
+        font-weight: 700;
+        margin: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    h3 {
+        text-align: center;
+        font-size: $text-size / 1.5;
+        margin-bottom: 80px;
+        font-weight: 300;
+    }
+}
