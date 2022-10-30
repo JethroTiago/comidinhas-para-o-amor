@@ -1,3 +1,5 @@
+@import '../abstract/variaveis';
+
 .banner {
     align-items: center;
     background: url(../../images/BGIMG.png) 30% center;
@@ -7,8 +9,19 @@
     min-height: 350px;
     opacity: .9;
     .inner-banner {
+        background-color: $third-color;
+        border-radius: 40px;
+        opacity: .9;
         padding: 3rem;
-        background-color: $first-color;
-        border-radius: 15px;
+        h1 {
+            font-size: $text-size;
+            text-transform: uppercase;
+            color: $first-color;
+        }
+        h2 {
+            font-size: $text-size / 2;
+            text-transform: uppercase;
+            color: $first-color;
+        }
     }
 }

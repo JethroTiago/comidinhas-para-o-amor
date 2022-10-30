@@ -29,7 +29,18 @@ nav ul li a:hover {
   opacity: 0.9;
 }
 .banner .inner-banner {
+  background-color: #B83B5E;
+  border-radius: 40px;
+  opacity: 0.9;
   padding: 3rem;
-  background-color: #F9ED69;
-  border-radius: 15px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #F9ED69;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #F9ED69;
 }/*# sourceMappingURL=style.css.map */
