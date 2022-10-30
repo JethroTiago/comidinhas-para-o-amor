@@ -1,0 +1,16 @@
+@import '../abstract/variaveis';
+
+#newsletter {
+    background-color: $first-color;
+    padding: 3rem;
+    text-align: center;
+    .text {
+        color: $fourth-color;
+        h2 {
+            font-size: $text-size / 2;
+            font-weight: 500;
+            margin: 1.5rem;
+            text-transform: uppercase;
+        }
+    }
+}
