@@ -61,4 +61,24 @@ nav ul li a:hover {
   font-size: 2rem;
   margin-bottom: 80px;
   font-weight: 300;
+}
+#recipes .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#recipes .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#recipes .cards .card .img-container {
+  padding-bottom: 10px;
+  border-bottom: 5px solid #F9ED69;
+}
+#recipes .cards .card .img-container img {
+  border-radius: 20px;
+  max-width: 100%;
+  width: 395px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=style.css.map */

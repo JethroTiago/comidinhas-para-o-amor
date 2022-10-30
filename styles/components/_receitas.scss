@@ -16,4 +16,23 @@
         margin-bottom: 80px;
         font-weight: 300;
     }
+    .cards {
+        display: flex;
+        justify-content: space-evenly;
+        .card {
+            width: 360px;
+            text-align: center;
+            .img-container {
+                padding-bottom: 10px;
+                border-bottom: 5px solid $first-color;
+                img {
+                    border-radius: 20px;
+                    max-width: 100%;
+                    width: 395px;
+                    height: 300px;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
 }
