@@ -107,4 +107,41 @@ nav ul li a:hover {
   font-weight: 500;
   margin: 1.5rem;
   text-transform: uppercase;
+}
+#newsletter .input {
+  border: 4px solid #6A2C70;
+  border-radius: 20px;
+  margin: 0 auto;
+  width: 550px;
+}
+#newsletter .input:hover, #newsletter .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #B83B5E;
+  outline: none;
+}
+#newsletter .input input {
+  border: none;
+  border-radius: 20px;
+  color: #6A2C70;
+  font-size: 18px;
+  height: 30px;
+  outline: none;
+  text-align: center;
+  width: 547px;
+}
+#newsletter button {
+  background-color: #6A2C70;
+  border-radius: 25px;
+  color: #F9ED69;
+  cursor: pointer;
+  font-weight: 700;
+  height: 40px;
+  letter-spacing: 2px;
+  margin-top: 1rem;
+  outline: none;
+  text-transform: uppercase;
+  width: 130px;
+}
+#newsletter button:hover {
+  background-color: #B83B5E;
+  border-color: #B83B5E;
 }/*# sourceMappingURL=style.css.map */

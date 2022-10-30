@@ -13,4 +13,42 @@
             text-transform: uppercase;
         }
     }
+    .input {
+        border: 4px solid $fourth-color;
+        border-radius: 20px;
+        margin: 0 auto;
+        width: 550px;
+        &:hover, &:focus-within {
+            box-shadow: 1px 1px 8px 1px $third-color;
+            outline: none;
+        }
+        input {
+            border: none;
+            border-radius: 20px;
+            color: $fourth-color;
+            font-size: 18px;
+            height: 30px;
+            outline: none;
+            text-align: center;
+            width: 547px;
+        }
+    }
+    button {
+        background-color: $fourth-color;
+        border-radius: 25px;
+        color: $first-color;
+        cursor: pointer;
+        font-weight: 700;
+        height: 40px;
+        letter-spacing: 2px;
+        margin-top: 1rem;
+        outline: none;
+        text-transform: uppercase;
+        width: 130px;
+        &:hover {
+            background-color: $third-color;
+            border-color: $third-color;
+            //box-shadow: 1px 1px 8px 1px $third-color;
+        }
+    }
 }
