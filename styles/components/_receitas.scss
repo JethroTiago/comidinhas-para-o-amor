@@ -33,6 +33,18 @@
                     object-fit: cover;
                 }
             }
+            h5 {
+                font-size: $text-size / 1.8;
+                font-weight: 500;
+                margin: 10px 0 10px 0;
+                text-transform: uppercase;
+            }
+            p {
+                font-size: $text-size / 2.8;
+                font-weight: 300;
+                line-height: 1.25rem;
+
+            }
         }
     }
 }

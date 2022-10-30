@@ -81,4 +81,15 @@ nav ul li a:hover {
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+#recipes .cards .card h5 {
+  font-size: 1.6666666667rem;
+  font-weight: 500;
+  margin: 10px 0 10px 0;
+  text-transform: uppercase;
+}
+#recipes .cards .card p {
+  font-size: 1.0714285714rem;
+  font-weight: 300;
+  line-height: 1.25rem;
 }/*# sourceMappingURL=style.css.map */
