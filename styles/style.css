@@ -3,7 +3,9 @@ html, body {
 }
 
 nav {
-  text-align: center;
+  background-color: #F9ED69;
+  padding-right: 4rem;
+  text-align: end;
 }
 nav ul li {
   display: inline-block;
@@ -13,7 +15,7 @@ nav ul li a {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: 700;
-  color: #F9ED69;
+  color: #B83B5E;
 }
 nav ul li a:hover {
   border-bottom: 2px solid #F08A5D;
