@@ -37,12 +37,12 @@ nav ul li a:hover {
   padding: 3rem;
 }
 .banner .inner-banner h1 {
-  font-size: 3rem;
+  font-size: 4.2vw;
   text-transform: uppercase;
   color: #F9ED69;
 }
 .banner .inner-banner h2 {
-  font-size: 1.5rem;
+  font-size: 2.1vw;
   text-transform: uppercase;
   color: #F9ED69;
 }
@@ -52,7 +52,7 @@ nav ul li a:hover {
 }
 #recipes h4 {
   color: #6A2C70;
-  font-size: 2rem;
+  font-size: 2.8vw;
   font-weight: 700;
   margin: 1rem;
   text-align: center;
@@ -60,7 +60,7 @@ nav ul li a:hover {
 }
 #recipes h3 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.8vw;
   margin-bottom: 80px;
   font-weight: 300;
 }
@@ -85,36 +85,36 @@ nav ul li a:hover {
      object-fit: cover;
 }
 #recipes .cards .card h5 {
-  font-size: 1.6666666667rem;
+  font-size: 2.3333333333vw;
   font-weight: 500;
   margin: 10px 0 10px 0;
   text-transform: uppercase;
 }
 #recipes .cards .card p {
-  font-size: 1.0714285714rem;
+  font-size: 1.5vw;
   font-weight: 300;
   line-height: 1.25rem;
 }
 
 #newsletter {
   background-color: #F9ED69;
-  padding: 3rem;
+  padding: 3vw;
   text-align: center;
 }
 #newsletter .text {
   color: #6A2C70;
 }
 #newsletter .text h2 {
-  font-size: 1.5rem;
+  font-size: 2.1vw;
   font-weight: 500;
-  margin: 1.5rem;
+  margin: 1.5vw;
   text-transform: uppercase;
 }
 #newsletter .input {
-  border: 4px solid #6A2C70;
+  border: 5px solid #6A2C70;
   border-radius: 20px;
   margin: 0 auto;
-  width: 550px;
+  width: 44.5vw;
 }
 #newsletter .input:hover, #newsletter .input:focus-within {
   box-shadow: 1px 1px 8px 1px #B83B5E;
@@ -128,7 +128,7 @@ nav ul li a:hover {
   height: 30px;
   outline: none;
   text-align: center;
-  width: 547px;
+  width: 44.3vw;
 }
 #newsletter button {
   background-color: #6A2C70;
@@ -177,13 +177,13 @@ nav ul li a:hover {
 #about .txt-about h3 {
   font-size: 2.5vw;
   font-weight: 500;
-  margin-bottom: 1vw;
+  margin-bottom: 2vw;
   text-transform: uppercase;
 }
 #about .txt-about h4 {
   font-size: 1.7vw;
   font-weight: 500;
-  margin-bottom: 1vw;
+  margin-bottom: 1.5vw;
 }
 #about .txt-about p {
   font-size: 1.8vw;
