@@ -20,17 +20,23 @@
         display: flex;
         justify-content: space-evenly;
         .card {
-            width: 360px;
+            width: 28vw;
             text-align: center;
             .img-container {
-                padding-bottom: 10px;
-                border-bottom: 5px solid $first-color;
+                height: 23vw;
+                padding-bottom: 1.2vw;
+                border-bottom: 8px solid $second-color;
+                overflow: hidden;
                 img {
-                    border-radius: 20px;
+                    //border-radius: 20px;
                     max-width: 100%;
                     width: 395px;
-                    height: 300px;
+                    height: 280px;
                     object-fit: cover;
+                    transition: all 1s ease;
+                    &:hover {
+                        transform: scale(1.3);
+                    } 
                 }
             }
             h5 {
