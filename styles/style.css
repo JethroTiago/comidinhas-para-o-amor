@@ -154,4 +154,37 @@ nav ul li a:hover {
   margin: 0 auto;
   padding: 3.5rem;
   text-align: center;
+}
+
+#about {
+  background-color: #B83B5E;
+  display: flex;
+  justify-content: space-between;
+}
+#about .img-container {
+  margin: 4vw;
+  width: 50%;
+}
+#about .img-container .img-about {
+  border: 10px solid #FFFFFF;
+  box-shadow: 1px 1px 8px 1px #6A2C70;
+  height: 25vw;
+}
+#about .txt-about {
+  margin: 4vw 4vw 4vw 0;
+  color: #F9ED69;
+}
+#about .txt-about h3 {
+  font-size: 2.5vw;
+  font-weight: 500;
+  margin-bottom: 1vw;
+  text-transform: uppercase;
+}
+#about .txt-about h4 {
+  font-size: 1.7vw;
+  font-weight: 500;
+  margin-bottom: 1vw;
+}
+#about .txt-about p {
+  font-size: 1.8vw;
 }/*# sourceMappingURL=style.css.map */
