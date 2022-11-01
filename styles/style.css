@@ -146,4 +146,12 @@ nav ul li a:hover {
 #newsletter button:hover {
   background-color: #B83B5E;
   border-color: #B83B5E;
+}
+
+#copyright {
+  background-color: #6A2C70;
+  color: #F9ED69;
+  margin: 0 auto;
+  padding: 3.5rem;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
