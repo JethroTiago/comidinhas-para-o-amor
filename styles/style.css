@@ -67,15 +67,16 @@ nav ul li a:hover {
 #recipes .cards {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 #recipes .cards .card {
   width: 28vw;
   text-align: center;
 }
 #recipes .cards .card .img-container {
+  border-bottom: 8px solid #F08A5D;
   height: 23vw;
   padding-bottom: 1.2vw;
-  border-bottom: 8px solid #F08A5D;
   overflow: hidden;
 }
 #recipes .cards .card .img-container img {
@@ -99,6 +100,7 @@ nav ul li a:hover {
   font-size: 1.5vw;
   font-weight: 300;
   line-height: 1.25rem;
+  margin-bottom: 2vw;
 }
 
 #newsletter {

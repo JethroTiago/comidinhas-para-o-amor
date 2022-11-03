@@ -19,13 +19,14 @@
     .cards {
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
         .card {
             width: 28vw;
             text-align: center;
             .img-container {
+                border-bottom: 8px solid $second-color;
                 height: 23vw;
                 padding-bottom: 1.2vw;
-                border-bottom: 8px solid $second-color;
                 overflow: hidden;
                 img {
                     //border-radius: 20px;
@@ -49,6 +50,7 @@
                 font-size: $text-size / 2.8;
                 font-weight: 300;
                 line-height: 1.25rem;
+                margin-bottom: 2vw;
 
             }
         }
