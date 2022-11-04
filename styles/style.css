@@ -70,13 +70,10 @@ nav ul li a:hover {
   flex-wrap: wrap;
 }
 #recipes .cards .card {
-  width: 28vw;
+  width: 23vw;
   text-align: center;
 }
 #recipes .cards .card .img-container {
-  border-bottom: 8px solid #F08A5D;
-  height: 23vw;
-  padding-bottom: 1.2vw;
   overflow: hidden;
 }
 #recipes .cards .card .img-container img {
@@ -91,9 +88,11 @@ nav ul li a:hover {
   transform: scale(1.3);
 }
 #recipes .cards .card h5 {
+  border-top: 8px solid #F08A5D;
+  padding-top: 8px;
   font-size: 2.3333333333vw;
   font-weight: 500;
-  margin: 10px 0 10px 0;
+  margin: 20px 0 10px 0;
   text-transform: uppercase;
 }
 #recipes .cards .card p {

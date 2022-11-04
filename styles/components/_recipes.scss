@@ -21,12 +21,10 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         .card {
-            width: 28vw;
+            width: 23vw;
             text-align: center;
             .img-container {
-                border-bottom: 8px solid $second-color;
-                height: 23vw;
-                padding-bottom: 1.2vw;
+                //height: 23vw;
                 overflow: hidden;
                 img {
                     //border-radius: 20px;
@@ -41,9 +39,11 @@
                 }
             }
             h5 {
+                border-top: 8px solid $second-color;
+                padding-top: 8px;
                 font-size: $text-size / 1.8;
                 font-weight: 500;
-                margin: 10px 0 10px 0;
+                margin: 20px 0 10px 0;
                 text-transform: uppercase;
             }
             p {
