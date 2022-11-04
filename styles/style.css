@@ -77,6 +77,7 @@ nav ul li a:hover {
   overflow: hidden;
 }
 #recipes .cards .card .img-container img {
+  cursor: pointer;
   max-width: 100%;
   width: 395px;
   height: 280px;
@@ -195,69 +196,63 @@ nav ul li a:hover {
   font-size: 1.8vw;
 }
 
+/*
 .modal-container {
-  background-color: #F9ED69;
-  display: none;
-  justify-content: center;
-  position: fixed;
-  width: 100vw;
-  z-index: 999;
-}
-.modal-container .modal {
-  background-color: #F9ED69;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  padding: 30px;
-  width: 50%;
-}
-.modal-container .modal .btns {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-}
-.modal-container .modal .btns button {
-  border: none;
-  border-radius: 10px;
-  color: #6A2C70;
-  cursor: pointer;
-  font-size: 2vw;
-  padding: 10px;
-}
-.modal-container .modal .btns button .btnOk {
-  background-color: #F08A5D;
-}
-.modal-container .modal .btns button .btnClose {
-  background-color: #B83B5E;
-}
+    background-color: $first-color;
+    display: none;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+    .modal {
+        background-color: $first-color;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 50%;
+        h2 {
+            color: $third-color;
+        }
+        hr {
+            color: $fourth-color;
+        }
+        .btns {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            button {
+                border: none;
+                border-radius: 10px;
+                color: $fourth-color;
+                cursor: pointer;
+                font-size: 2vw;
+                padding: 10px;
+                .btnOk {
+                    background-color: $second-color;
+                }
+                .btnClose {
+                    background-color: $third-color;
+                }
+            }
+        }
+    }
+    .active {
+        display: flex;
+    }
 
-.active {
-  display: flex;
-}
-
-.active .modal {
-  -webkit-animation: modal 0.4s;
-          animation: modal 0.4s;
-}
-
-@-webkit-keyframes modal {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -60px, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
+    .active .modal {
+        animation: modal .4s;
+    }
 }
 
 @keyframes modal {
-  from {
-    opacity: 0;
-    transform: translate3d(0, -60px, 0);
-  }
-  to {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}/*# sourceMappingURL=style.css.map */
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+} *//*# sourceMappingURL=style.css.map */

@@ -1,5 +1,4 @@
-@import '../abstract/variaveis';
-
+/*
 .modal-container {
     background-color: $first-color;
     display: none;
@@ -15,10 +14,10 @@
         padding: 30px;
         width: 50%;
         h2 {
-
+            color: $third-color;
         }
         hr {
-
+            color: $fourth-color;
         }
         .btns {
             display: flex;
@@ -40,14 +39,13 @@
             }
         }
     }
-}
-
-.active {
-    display: flex;
-}
-
-.active .modal {
-    animation: modal .4s;
+    .active {
+        display: flex;
+    }
+    
+    .active .modal {
+        animation: modal .4s;
+    }
 }
 
 @keyframes modal {
@@ -59,4 +57,4 @@
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
-}
+} */
