@@ -1,2 +1,62 @@
 @import '../abstract/variaveis';
 
+.modal-container {
+    background-color: $first-color;
+    display: none;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+    .modal {
+        background-color: $first-color;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        width: 50%;
+        h2 {
+
+        }
+        hr {
+
+        }
+        .btns {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            button {
+                border: none;
+                border-radius: 10px;
+                color: $fourth-color;
+                cursor: pointer;
+                font-size: 2vw;
+                padding: 10px;
+                .btnOk {
+                    background-color: $second-color;
+                }
+                .btnClose {
+                    background-color: $third-color;
+                }
+            }
+        }
+    }
+}
+
+.active {
+    display: flex;
+}
+
+.active .modal {
+    animation: modal .4s;
+}
+
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
