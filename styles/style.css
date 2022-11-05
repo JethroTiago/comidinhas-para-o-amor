@@ -278,13 +278,13 @@ nav ul li a:hover {
   cursor: pointer;
   transform: scale(1.3);
 }
-#copyright .finalText {
-  font-size: 2.8vw;
-}
 
 @media (max-width: 425px) {
   #copyright span {
     font-size: 5vw;
+  }
+  .finalText {
+    font-size: 2.8vw;
   }
 }
 #about {
