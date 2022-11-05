@@ -1,7 +1,7 @@
 @import '../abstract/variaveis';
 
 #recipes {
-    margin: 40px;
+    margin: 5vw;
     h4 {
         color: $fourth-color;
         font-size: $text-size / 1.5;
@@ -13,7 +13,7 @@
     h3 {
         text-align: center;
         font-size: $text-size / 1.5;
-        margin-bottom: 80px;
+        margin-bottom: 5vw;
         font-weight: 300;
     }
     .cards {
@@ -24,10 +24,9 @@
             width: 25vw;
             text-align: center;
             .img-container {
-                //height: 23vw;
+                height: 23vw;
                 overflow: hidden;
                 img {
-                    //border-radius: 20px;
                     cursor: pointer;
                     max-width: 100%;
                     width: 395px;
@@ -52,6 +51,31 @@
                 font-weight: 300;
                 line-height: 1.25rem;
                 margin-bottom: 2vw;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    #recipes {
+        margin: 0 auto;
+        .cards {
+            flex-direction: column;
+            .card {
+                margin: 5vw;
+                width: 90vw;
+                .img-container {
+                    .img {
+                        cursor: none;
+                    }
+                }
+                h5 {
+                    font-size: $text-size / 1.4;
+                }
+                p {
+                    font-size: $text-size / 1.5;
+                    margin-bottom: 1vw;
+                }
             }
         }
     }

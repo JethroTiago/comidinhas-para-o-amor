@@ -1,9 +1,2 @@
-/* const modal = document.querySelector('.modal-container');
-
-function openModal() {
-    modal.classList.add('active');
-}
-
-function closeModal() {
-    modal.classList.remove('active');
-} */
+console.log('Projeto desenvolvido por Jethro Tiago - 2022')
+console.log('Criado com Sass')
