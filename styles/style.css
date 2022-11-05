@@ -48,6 +48,9 @@ nav ul li a:hover {
 }
 
 @media (max-width: 425px) {
+  .banner {
+    min-height: 250px;
+  }
   .banner .inner-banner {
     text-align: center;
   }
