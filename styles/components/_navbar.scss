@@ -20,3 +20,10 @@ nav {
         }
     }
 }
+
+@media (max-width: 425px) {
+    nav {
+        padding: 1vw;
+        text-align: center;
+    }
+}

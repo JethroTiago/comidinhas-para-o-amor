@@ -21,6 +21,12 @@ nav ul li a:hover {
   border-bottom: 2px solid #F08A5D;
 }
 
+@media (max-width: 425px) {
+  nav {
+    padding: 1vw;
+    text-align: center;
+  }
+}
 .banner {
   align-items: center;
   background: url(../../images/BGIMG.png) 30% center;
@@ -60,6 +66,17 @@ nav ul li a:hover {
   }
   .banner .inner-banner h2 {
     font-size: 4.2vw;
+  }
+}
+@media (max-width: 320px) {
+  .banner {
+    min-height: 200px;
+  }
+  .banner .inner-banner {
+    background-color: #B83B5E;
+    border-radius: 20px;
+    opacity: 0.9;
+    padding: 2rem;
   }
 }
 #recipes {
@@ -141,6 +158,22 @@ nav ul li a:hover {
     margin-bottom: 1vw;
   }
 }
+@media (max-width: 320px) {
+  #recipes h4 {
+    font-size: 4.62vw;
+  }
+  #recipes h3 {
+    font-size: 4.62vw;
+    padding: 2vw 5vw 0 5vw;
+  }
+  #recipes .cards .card h5 {
+    font-size: 6.3vw;
+  }
+  #recipes .cards .card p {
+    font-size: 3.5vw;
+    margin-bottom: 1vw;
+  }
+}
 #newsletter {
   background-color: #F9ED69;
   padding: 3vw;
@@ -201,6 +234,24 @@ nav ul li a:hover {
     width: 70vw;
   }
   #newsletter .input input {
+    width: 69vw;
+  }
+  #newsletter button {
+    font-size: 2.1vw;
+    height: 30px;
+    width: 100px;
+  }
+}
+@media (max-width: 320px) {
+  #newsletter .text h2 {
+    font-size: 3.5vw;
+  }
+  #newsletter .input {
+    width: 70vw;
+  }
+  #newsletter .input input {
+    font-size: 12px;
+    height: 20px;
     width: 69vw;
   }
   #newsletter button {
@@ -285,5 +336,16 @@ nav ul li a:hover {
   }
   #about .txt-about p {
     font-size: 2.2vw;
+  }
+}
+@media (max-width: 320px) {
+  #about .txt-about h3 {
+    font-size: 3.5vw;
+  }
+  #about .txt-about h4 {
+    font-size: 2.8vw;
+  }
+  #about .txt-about p {
+    font-size: 2.6vw;
   }
 }/*# sourceMappingURL=style.css.map */

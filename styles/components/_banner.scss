@@ -41,3 +41,15 @@
         }
     }
 }
+
+@media (max-width: 320px) {
+    .banner {
+        min-height: 200px;
+        .inner-banner {
+            background-color: $third-color;
+            border-radius: 20px;
+            opacity: .9;
+            padding: 2rem;
+        }
+    }
+}

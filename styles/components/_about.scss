@@ -53,3 +53,19 @@
         }
     }
 }
+
+@media (max-width: 320px) {
+    #about {
+        .txt-about {
+            h3 {
+                font-size: 3.5vw;
+            }
+            h4 {
+                font-size: 2.8vw;
+            }
+            p {
+                font-size: 2.6vw;
+            }
+        }
+    }
+}

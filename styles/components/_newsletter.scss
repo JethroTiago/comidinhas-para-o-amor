@@ -73,3 +73,26 @@
         }
     }
 }
+
+@media (max-width: 320px) {
+    #newsletter {
+        .text {
+            h2 {
+                font-size: $text-size / 1.2;
+            }
+        }
+        .input {
+            width: 70vw;
+            input {
+                font-size: 12px;
+                height: 20px;
+                width: 69vw;
+            }
+        }
+        button {
+            font-size: $text-size / 2;
+            height: 30px;
+            width: 100px;
+        }
+    }
+}
