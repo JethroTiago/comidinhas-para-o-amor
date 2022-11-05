@@ -47,6 +47,18 @@ nav ul li a:hover {
   color: #F9ED69;
 }
 
+@media (max-width: 425px) {
+  .banner .inner-banner {
+    text-align: center;
+  }
+  .banner .inner-banner h1 {
+    font-size: 5.88vw;
+    margin-bottom: 2vw;
+  }
+  .banner .inner-banner h2 {
+    font-size: 4.2vw;
+  }
+}
 #recipes {
   margin: 5vw;
 }
