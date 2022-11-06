@@ -11,7 +11,7 @@ http://comidinhas-para-o-amor.vercel.app/
 
 ## How it works
 
-Recipe website created with sass.
+Simple recipe website created with sass.
 
 ## Built with
 
