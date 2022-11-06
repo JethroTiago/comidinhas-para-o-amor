@@ -170,7 +170,7 @@ nav ul li a:hover {
     font-size: 6.3vw;
   }
   #recipes .cards .card p {
-    font-size: 3.5vw;
+    font-size: 3.8181818182vw;
     margin-bottom: 1vw;
   }
 }
@@ -314,7 +314,7 @@ nav ul li a:hover {
 #about .txt-about h4 {
   font-size: 1.7vw;
   font-weight: 500;
-  margin-bottom: 1.5vw;
+  margin-bottom: 2vw;
 }
 #about .txt-about p {
   font-size: 1.8vw;
@@ -340,12 +340,12 @@ nav ul li a:hover {
 }
 @media (max-width: 320px) {
   #about .txt-about h3 {
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   #about .txt-about h4 {
-    font-size: 2.8vw;
+    font-size: 3.5vw;
   }
   #about .txt-about p {
-    font-size: 2.6vw;
+    font-size: 3.3vw;
   }
 }/*# sourceMappingURL=style.css.map */
