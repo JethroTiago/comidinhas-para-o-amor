@@ -3,11 +3,11 @@ Página web de receitinhas especiais para namorados
 
 ### Deploy
 
--- soon --
+http://comidinhas-para-o-amor.vercel.app/
 
 ### Project Preview
 
--- soon --
+![Comidinhas print](https://user-images.githubusercontent.com/103612874/200171769-c4302f0d-ee0f-41b1-bbe8-f37c33d48168.jpg)
 
 ## How it works
 
