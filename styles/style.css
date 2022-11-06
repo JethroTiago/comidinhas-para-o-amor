@@ -116,6 +116,8 @@ nav ul li a:hover {
   height: 280px;
   -o-object-fit: cover;
      object-fit: cover;
+  -o-object-position: left 0 bottom 50px;
+     object-position: left 0 bottom 50px;
   transition: all 1s ease;
 }
 #recipes .cards .card .img-container img:hover {
