@@ -75,7 +75,7 @@ nav ul li a:hover {
   .banner .inner-banner {
     background-color: #B83B5E;
     border-radius: 20px;
-    opacity: 0.9;
+    opacity: 0.8;
     padding: 2rem;
   }
 }
@@ -308,7 +308,7 @@ nav ul li a:hover {
 #about .txt-about h3 {
   font-size: 2.5vw;
   font-weight: 500;
-  margin-bottom: 2vw;
+  padding: 0 4vw 2vw 4vw;
   text-transform: uppercase;
 }
 #about .txt-about h4 {
