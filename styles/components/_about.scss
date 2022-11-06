@@ -33,16 +33,16 @@
     }
 }
 
-@media (max-width: 429px) {
+@media (max-width: 425px) {
     #about {
         .img-container {
             display: none;
         }
         .txt-about {
+            padding: 3vw 1vw 3vw 3vw;
             text-align: center;
-            padding: 4vw 2.5vw 4vw 4vw;
             h3 {
-                font-size: 3vw;
+                font-size: 5vw;
             }
             h4 {
                 font-size: 2.5vw;
@@ -57,11 +57,12 @@
 @media (max-width: 320px) {
     #about {
         .txt-about {
+            padding: 3vw 1vw 3vw 3vw;
             h3 {
-                font-size: 4vw;
+                font-size: 5vw;
             }
             h4 {
-                font-size: 3.5vw;
+                font-size: 3.6vw;
             }
             p {
                 font-size: 3.3vw;
